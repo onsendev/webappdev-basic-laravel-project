@@ -10,16 +10,9 @@ class TodoController extends Controller
 {
     public function index()
     {
-        
-        // この部分を追記しましょう！
-        if (Auth::check()) {
-            $todos = Todo::whereUserId(Auth::id())->get();
-        } else {
-            $todos = [];
-        }
-        
+        // $todos = Todo::all();        
         return view('todos', [
-            'todos' => $todos,
+            // 'todos' => $todos,
         ]);
     }
     
