@@ -24,12 +24,15 @@
 
 
             <!-- この部分を編集しましょう！ -->
-            <small><?php echo date('Y-m-d') ?></small>
+            <small>〇〇〇〇-〇〇-〇〇</small>
 
 
           </div>
           <div class="col-sm-6">
 
+
+
+            {{-- 学習の後半で編集する部分です！序盤は無視してください。
             <div class="float-sm-right">
               @guest
               @if (Route::has('login'))
@@ -46,7 +49,10 @@
               </form>
               @endguest
             </div>
+            --}}
+            
 
+            
           </div>
         </div><!-- /.container-fluid -->
     </section>
